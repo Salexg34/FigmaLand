@@ -1,15 +1,9 @@
-.body__wrapper {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    /* Испраивть данное решение */
-    height: 100vh;
-    
-}
+
 
 .header {
     background-color: var(--bg-dark);
-    
+    overflow: hidden;
+
 }
 
 .contanier {
@@ -94,7 +88,8 @@
 }
 
 .header.active .header__burger-btn span:nth-child(2) {
-    opacity: 0;
+    /* opacity: 0; */
+    transform: scale(0);
 }
 
 .header.active .header__burger-btn span:nth-child(3) {
@@ -107,12 +102,14 @@
     }
 
     .nav {
+        display: none;
         position: absolute;
         padding-top: 50px;
+        padding-bottom: 50px;
         top: 0;
-        right: -350px;
+        left: 100%;
 
-        width: 350px;
+        width: 100%;
         background-color: var(--bg-dark);
         text-align: center;
 
@@ -127,11 +124,20 @@
         font-size: 1.25rem;
     }
 
-    .header.active .nav__menu li:nth-child(1) {
-        margin-top: 0px;
+    .nav__menu_list:first-child {
+        margin-top: 0;
     }
+
+    /* .header.active .nav__menu li:nth-child(1) {
+        margin-top: 0px;
+    } */
 
     .header.active .nav {
         transform: translateX(-100%);
+    }
+
+    .lock-body .nav {
+        display: block;
+
     }
 }
