@@ -2,5 +2,12 @@
 @import url('./style/variable.css');
 @import url('./style/base.css');
 @import url('./style/header.css');
-@import url('./style/hero.css');
+@import url('./style/screen_section.css');
+@import url('./style/hero_section.css');
+@import url('./style/features_section.css');
+@import url('./style/contents_section.css');
+@import url('./style/gallery_section.css');
+@import url('./style/partners_section.css');
+@import url('./style/testimonials_section.css');
+@import url('./style/opentype_section.css');
 @import url('./style/footer.css');

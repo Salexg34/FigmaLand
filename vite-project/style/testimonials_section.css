@@ -1,0 +1,37 @@
+.testimonials {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 0;
+}
+.indentation {
+    padding: 200px 0;
+}
+
+.testimonial__card {
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+
+    border-radius: 10px;
+    border: 1px solid #DEDEDE;
+}
+
+.cards__line {
+    /* /* display: flex; */
+    gap: 25px;
+    width: 60%; 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.human {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+   
+}

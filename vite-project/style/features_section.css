@@ -1,0 +1,45 @@
+.features {
+    padding: 100px 0 250px 0;
+}
+
+.features-gap {
+    display: flex;
+    gap: 50px;
+}
+
+.features__screen {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    gap: 75px;
+}
+
+.features__lineChart {
+    position: absolute;
+    top: 535px;
+    left: 315px
+}
+
+.features__rows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 70px;
+}
+
+.features__rows_wrapper {
+    width: 60%;
+}
+
+.features__wrapper-block {
+    display: flex;
+    flex-direction: row;
+    width: 82%;
+}
+
+.title {
+    padding: 10px;
+    font-size: 20px;
+    color: var(--white)
+}
+

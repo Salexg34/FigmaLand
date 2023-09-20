@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -12,8 +12,8 @@
 
 <body>
   <header class="header">
-    <div class="contanier contanier__nav">
-      <a href="#">
+    <div class="container container__nav">
+      <a class="logo__header" href="#">
         <img src="./public/logo.svg" alt="Figma Land">
       </a>
       <nav class="nav">
@@ -32,9 +32,11 @@
           </li>
         </ul>
       </nav>
-      <button class="header__btn">
-        <a href="#">Login</a>
-      </button>
+      <div class="btn__nav">
+        <button class="btn__opacity text">
+          <a href="#">Login</a>
+        </button>
+      </div>
       <button class="header__burger-btn">
         <span></span>
         <span></span>
@@ -42,6 +44,400 @@
       </button>
     </div>
   </header>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="wrapper">
+          <div>
+            <h1 class="text">
+              Work at the speed of thought
+            </h1>
+            <span class="text sub-heading">
+              Most calendars are designed for teams. Slate is designed for
+              freelancers who want a simple way to plan their schedule.
+            </span>
+          </div>
+          <div class="btn">
+            <button class="btn__blue text">
+              <a href="#">Try For Free</a>
+            </button>
+            <button class="btn__opacity text">
+              <a href="#">Learn more</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="screens">
+      <div class="container">
+        <div class="screens__wrapper">
+          <img src="./public/Dashboard_rotate.png" alt="">
+          <div class="screens__boards--rotate">
+            <img src="./public/Boards_rotate.png" alt="">
+          </div>
+          <div class="screens__chatBot--rotate">
+            <img src="./public/Chat_Bot_rotate.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="features">
+      <div class="container">
+        <div class="wrapper features-gap">
+          <div class="text-wrapper">
+            <h2 class="text">
+              FEATURES
+            </h2>
+            <span class="text sub-heading">
+              Most calendars are designed for teams. Slate is designed for
+              freelancers who want a simple way to plan their schedule.
+            </span>
+          </div>
+          <div class="features__screen">
+            <img src="./public/Chat_Bot.png" alt="">
+            <div class="features__lineChart">
+              <img src="./public/Line_Chart.png" alt="">
+            </div>
+            <div class="features__rows">
+              <div class="features__rows_wrapper">
+                <div class="features__wrapper-block">
+                  <img src="./public/Vector.svg" alt="">
+                  <span class="title">
+                    A single source of truth
+                  </span>
+                </div>
+                <span class="text">
+                  When you add work to your
+                  Slate calendar we automatically
+                  calculate useful insights
+                </span>
+              </div>
+              <div class="features__rows_wrapper">
+                <div class="features__wrapper-block">
+                  <img src="./public/Vector_ufo.svg" alt="">
+                  <span class="title">
+                    Intuitive interface
+                  </span>
+                </div>
+                <span class="text">
+                  When you add work to your
+                  Slate calendar we automatically
+                  calculate useful insights
+                </span>
+              </div>
+              <div class="features__rows_wrapper">
+                <div class="features__wrapper-block">
+                  <img src="./public/Vector_infinity.svg" alt="">
+                  <span class="title">
+                    Or with rules
+                  </span>
+                </div>
+                <span class="text">
+                  When you add work to your
+                  Slate calendar we automatically
+                  calculate useful insights
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="contents">
+      <div class="container">
+        <div class="wrapper contents-gap">
+          <div class="text-wrapper">
+            <h2 class="text">
+              Contents
+            </h2>
+            <span class="text sub-heading">
+              We focus on ergonomics and meeting you where you work.
+              It's only a keystroke away.
+            </span>
+          </div>
+          <div class="cards">
+            <div class="card">
+              <div class="card__wrapper card__work">
+                <div class="card__text">
+                  <h3>
+                    Work
+                  </h3>
+                  <p>
+                    Ever wondered if you're too reliant
+                    on a client for work? Slate helps
+                    you identify.
+                  </p>
+                </div>
+                <div class="btn">
+                  <button class="btn__blue text">
+                    <a href="#">Sign Up</a>
+                  </button>
+                </div>
+                <div class="card__picture">
+                  <img src="./public/Screen_mask.png" alt="">
+                  <img src="./public/grip.svg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card__wrapper card__design">
+                <div class="card__text">
+                  <h3>
+                    Design with real data
+                  </h3>
+                  <p>
+                    Ever wondered if you're too reliant
+                    on a client for work? Slate helps
+                    you identify.
+                  </p>
+                </div>
+                <div class="btn">
+                  <button class="btn__blue text">
+                    <a href="#">Try for free</a>
+                  </button>
+                </div>
+                <img src="./public/Boards_Notifications.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gallery">
+      <div class="container">
+        <div class="wrapper gallery-gap">
+          <div class="text-wrapper">
+            <h2 class="text">
+              Gallery
+            </h2>
+            <span class="text sub-heading">
+              We focus on ergonomics and meeting you where you work.
+              It's only a keystroke away.
+            </span>
+          </div>
+          <!-- <div class="gallery__cards">
+            <img class="gallery__card-border" src="./public/Copter.png" alt="">
+            <img class="gallery__card-border" src="./public/Ipad.png" alt="">
+            <img class="gallery__card-border" src="./public/Meet.png" alt="">
+            <img class="gallery__card-border" src="./public/Imac.png" alt="">
+          </div>
+          <div class="gallery__cards">
+            <img class="gallery__card-border" src="./public/Webdev.png" alt="">
+            <img class="gallery__card-border" src="./public/Work.png" alt="">
+            <img class="gallery__card-border" src="./public/Photo.png" alt="">
+
+          </div> -->
+
+
+          <div class="gallery__cards">
+            <div class="gallery__card1">
+              <img class="gallery__card-border" src="./public/Copter.png" alt="">
+            </div>
+            <div class="gallery__card2">
+              <img class="gallery__card-border" src="./public/Ipad.png" alt="">
+            </div>
+            <div class="gallery__card3">
+              <img class="gallery__card-border" src="./public/Meet.png" alt="">
+            </div>
+            <div class="gallery__card4">
+              <img class="gallery__card-border" src="./public/Imac.png" alt="">
+            </div>
+            <div class="gallery__card5">
+              <img class="gallery__card-border" src="./public/Webdev.png" alt="">
+            </div>
+            <div class="gallery__card6">
+              <img class="gallery__card-border" src="./public/Work.png" alt="">
+            </div>
+            <div class="gallery__card7">
+              <img class="gallery__card-border" src="./public/Photo.png" alt="">
+            </div>
+          </div>
+
+
+
+
+
+          <button class="btn__opacity text">
+            <a href="#">See more</a>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="wrapper">
+          <h2 class="text">
+            Partners
+          </h2>
+          <span class="text sub-heading">
+            We focus on ergonomics and meeting you where you work.
+            It's only a keystroke away.
+          </span>
+          <div class="logo">
+            <img src="./public/app-store.svg" alt="">
+            <img src="./public/apiary.svg" alt="">
+            <img src="./public/android.svg" alt="">
+            <img src="./public/basecamp.svg" alt="">
+            <img src="./public/ibm.svg" alt="">
+          </div>
+          <button class="btn__opacity text">
+            <a href="#">All Partners</a>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="wrapper indentation">
+          <h2 class="text">
+            Testimonials
+          </h2>
+          <div class="testimonials">
+            <div class="cards__line">
+              <div class="testimonial__card">
+                <div class="content__wrapper--block">
+                  <img src="./public/Avatar_claire.svg" alt="">
+                  <div class="human">
+                    <span class="text">Claire Bell</span>
+                    <span class="text">Designer</span>
+                  </div>
+                </div>
+                <span class="text">
+                  Slate helps you see how many more days
+                  you need to work to reach your financial
+                  goal for the month and year. Slate helps
+                  you see how many more days
+                  you need to work to reach your financial
+                  goal for the month and year.your financial
+                  goal for the month and year.
+                </span>
+              </div>
+              <div class="testimonial__card">
+                <div class="content__wrapper--block">
+                  <img src="./public/Avatar_Francisco.svg" alt="">
+                  <div class="human">
+                    <span class="text human">Francisco Lane</span>
+                    <span class="text human">Designer</span>
+                  </div>
+                </div>
+                <span class="text">
+                  Slate helps you see how many more days
+                  you need to work to reach your financial
+                  goal for the month and year. Slate helps
+                  you see how many more days
+                  you need to work to reach your financial
+                  goal for the month and year.
+                </span>
+              </div>
+            </div>
+            <div class="cards__line">
+              <div class="testimonial__card">
+                <div class="content__wrapper--block">
+                  <img src="./public/Avatar_ralph.svg" alt="">
+                  <div class="human">
+                    <span class="text human">Ralph Fisher</span>
+                    <span class="text human">Designer</span>
+                  </div>
+                </div>
+                <span class="text">
+                  Slate helps you see how many more days
+                  you need to work to reach your financial
+                  goal for the month and year. Slate helps
+                  you see how many more days
+                  you need to work to reach your financial
+                  goal for the month and year.
+                </span>
+              </div>
+              <div class="testimonial__card">
+                <div class="content__wrapper--block">
+                  <img src="./public/Avatar_jorge.svg" alt="">
+                  <div class="human">
+                    <span class="text human">Jorge Murphy</span>
+                    <span class="text human">Designer</span>
+                  </div>
+                </div>
+                <span class="text">
+                  Slate helps you see how many more days
+                  you need to work to reach your financial
+                  goal for the month and year. Slate helps
+                  you see how many more days
+                  you need to work to reach your financial
+                  goal for the month and year.
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="opentype">
+          <div class="idx">
+            <h2 class="text">
+              OpenType features
+              and Variable fonts
+            </h2>
+            <div class="idx__btn">
+              <button class="btn__blue text">
+                <a href="#">Try for free</a>
+              </button>
+            </div>
+          </div>
+          <div class="fast__proto">
+            <img src="./public/Line_Chart1.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-wrapper">
+        <div class="footer__menu">
+          <div class="footer__menu_nav">
+            <a class="footer__text" href="#">Fingertipe</a>
+            <a class="text" href="#">Home</a>
+            <a class="text" href="#">Examples</a>
+            <a class="text" href="#">Pricing</a>
+            <a class="text" href="#">Updates</a>
+          </div>
+          <div class="footer__menu_nav">
+            <a class="footer__text" href="#">Resources</a>
+            <a class="text" href="#">Home</a>
+            <a class="text" href="#">Examples</a>
+            <a class="text" href="#">Pricing</a>
+            <a class="text" href="#">Updates</a>
+          </div>
+          <div class="footer__menu_nav">
+            <a class="footer__text" href="#">About</a>
+            <a class="text" href="#">Home</a>
+            <a class="text" href="#">Examples</a>
+            <a class="text" href="#">Pricing</a>
+            <a class="text" href="#">Updates</a>
+          </div>
+        </div>
+        <div class="footer__contacts">
+          <div class="footer__contacts-block">
+            <img src="./public/bx_map.svg" alt="">
+            <span class="title">
+              7480 Mockingbird Hill undefined
+            </span>
+          </div>
+          <div class="footer__contacts-block">
+            <img src="./public/phone_android.svg" alt="">
+            <span class="title">
+              (239) 555-0108
+            </span>
+          </div>
+          <div class="footer__social-net">
+            <img src="./public/twitter.svg" alt="">
+            <img src="./public/facebook.svg" alt="">
+            <img src="./public/linkedin.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
   <script type="module" src="main.js"></script>
 </body>
 

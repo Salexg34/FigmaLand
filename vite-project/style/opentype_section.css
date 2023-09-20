@@ -1,0 +1,25 @@
+.opentype {
+    background-color: var(--grey-text);
+    display: flex;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+
+.idx {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.idx__btn {
+    display:flex;
+    align-items:self-start;
+    padding-left: 100px;
+}
+
+.fast__proto {
+    display: flex;
+    align-items:flex-end;
+
+}
