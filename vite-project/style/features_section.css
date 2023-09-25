@@ -1,5 +1,5 @@
 .features {
-    padding: 100px 0 250px 0;
+    padding: 10% 0 25% 0;
 }
 
 .features-gap {
@@ -43,3 +43,96 @@
     color: var(--white)
 }
 
+@media (max-width: 1024px) {
+    .features {
+        padding: 10% 0;
+    }
+
+    .features__lineChart {
+        left: 50%;
+        transform: translate3d(-50%, 50%, 0);
+    }
+}
+
+
+@media (max-width: 960px) {
+    .features {
+        padding: 10% 0;
+    }
+
+    .features__screen {
+        flex-direction: column;
+        gap: 100px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .features__rows {
+        align-items: center;
+    }
+
+    .features__rows_wrapper {
+        width: 40%;
+    }
+
+    .features__lineChart {
+        left: 50%;
+        transform: translate3d(-50%, -10%, 0);
+    }
+}
+
+@media (max-width: 768px) {
+    .features {
+        padding: 10% 0;
+    }
+
+    .features-gap {
+        flex-direction: column;
+    }
+
+    .features__screen {
+        flex-direction: column;
+        gap: 150px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .features__lineChart {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .features__rows {
+        align-items: center;
+    }
+
+    .features__rows_wrapper {
+        width: 40%;
+    }
+}
+
+@media (max-width: 540px) {
+    .features {
+        padding: 10% 0;
+    }
+
+    .features__lineChart {
+        transform: translate3d(-50%, -80%, 0);
+    }
+
+}
+
+@media (max-width: 425px) {
+    .features {
+        padding: 10% 0;
+    }
+    
+    .features__lineChart {
+        transform: translate3D(-50%, -180%, 0);
+    }
+
+    .features__screen {
+        gap: 100px;
+    }
+}

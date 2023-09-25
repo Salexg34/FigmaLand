@@ -1,5 +1,4 @@
 .screens {
-    display: flex;
     overflow: hidden;
 }
 
@@ -20,4 +19,23 @@
     position: absolute;
     left: 360px;
     top: 275px;
+}
+
+@media (max-width: 768px) {
+    .screens__wrapper {
+        max-width: 100%;
+        height: auto;
+        left: -10%;
+    }
+
+    .screens__boards--rotate {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .screens__chatBot--rotate {
+        max-width: 100%;
+        height: auto;
+    }
+    
 }

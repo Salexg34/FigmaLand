@@ -101,6 +101,7 @@
 @media (max-width: 768px) {
     .header__burger-btn {
         display: block;
+        margin-left: auto;
     }
 
     .nav {
@@ -130,10 +131,6 @@
         margin-top: 0;
     }
 
-    /* .header.active .nav__menu li:nth-child(1) {
-        margin-top: 0px;
-    } */
-
     .header.active .nav {
         transform: translateX(-100%);
     }
@@ -141,5 +138,11 @@
     .lock-body .nav {
         display: block;
 
+    }
+}
+
+@media (max-width: 540px) {
+        .btn__opacity {
+            padding: 10px 15px;
     }
 }
