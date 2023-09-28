@@ -29,7 +29,7 @@
 
 .gallery__cards {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
 
   justify-content: center;
@@ -38,32 +38,37 @@
 
 }
 
-.gallery__card1 {
+.logo-mobile {
+  display: none;
+}
+
+.gallery__cards .card-1 {
+  display: block;
   grid-column: 1/3;
 }
 
-.gallery__card2 {
+.card-2 {
   grid-column: 3/5;
 
 }
 
-.gallery__card3 {
+.card-3 {
   grid-column: 5/7;
 }
 
-.gallery__card4 {
+.card-4 {
   grid-column: 7/9;
 }
 
-.gallery__card5 {
+.card-5 {
   grid-column: 1/4;
 }
 
-.gallery__card6 {
+.card-6 {
   grid-column: 4/6;
 }
 
-.gallery__card7 {
+.card-7 {
   grid-column: 6/9;
 }
 
@@ -115,53 +120,84 @@
   width: 64px;
 }
 
+
+.not-show {
+  display: none;
+}
+/* .show-logo-mobile {
+  display: block;
+} */
+
 @media (max-width: 768px) {
+  
+  .gallery__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+    
+  /* .gallery__cards .show-logo-mobile {
+    display: block;
+  } */
+
+  /* .gallery__card-border {
+    display: none;
+  } */
+
   .gallery {
     padding-bottom: 10%;
   }
 
   .square1 {
-    border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(51, 51, 51, .12);
     grid-row: 1/1;
     grid-column: 1/3;
   }
-  
+
   .square2 {
-    border-radius: 10px;
-    background-color: #fc4b49;
-  
     grid-row: 2/1;
     grid-column: 3/5;
   }
-  
+
   .square3 {
     grid-row: 2/2;
     grid-column: 1/3;
   }
-  
+
   .square4 {
-    border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(51, 51, 51, .12);
     grid-row: 2/3;
     grid-column: 3/5;
-    
+
   }
-  
+
   .square5 {
     grid-row: 3/3;
     grid-column: 1/3;
   }
-  
+
   .square6 {
     grid-row: 4/3;
     grid-column: 3/5;
   }
-  
+
   .square7 {
-    border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(51, 51, 51, .12);
     grid-row: 4/4;
     grid-column: 1/3;
   }
+
+  /* .square {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+      "block_1 block_1 block_4"
+      "block_2 block_2 block_4"
+      "block_3 block_5 block_4"
+      "block_7 block_7 block_6";
+  }
+  .square1 {grid-area: block_1;}
+  .square2 {grid-area: block_2;}
+  .square3 {grid-area: block_3;}
+  .square4 {grid-area: block_4;}
+  .square5 {grid-area: block_5;}
+  .square6 {grid-area: block_6;}
+  .square7 {grid-area: block_7;} */
 }
